@@ -5,6 +5,7 @@
  */
 package modulo.pkg6;
 
+import helpers.Doctor;
 import helpers._persona;
 
 /**
@@ -19,12 +20,17 @@ public class Modulo6 {
     public static void main(String[] args) {
         // TODO code application logic here
         _persona persona = new _persona();
+        Doctor doctor = new Doctor();
         
          System.out.println(" INFORMACION PERSONAL ");
           System.out.println("**********************");
           
           persona.ImprimirInformacionPersona();
         System.out.println();
+        
+        System.out.println("INFORMACIÓN DEL DOCTOR");
+        System.out.println("**********************");
+        doctor.ImprimirInformacionDoctor();
         
           
           
