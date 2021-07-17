@@ -11,4 +11,10 @@ package helpers;
  */
 public class Doctor extends Persona {
     
+    public Doctor(){
+        Setnombre("Noé Alexander Cárcamo");
+        Setedad(22);
+        Setcorreo("noec4rc4mo@gmail.com");
+        Setrecidencia("Santa Bárbara, Santa Bárbara");
+    }
 }
