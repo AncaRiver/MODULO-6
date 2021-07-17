@@ -7,8 +7,8 @@ package helpers;
 
 /**
  *
- * @author rm97h
+ * @author noec4rc4mo
  */
-public class Doctor {
+public class Doctor extends Persona {
     
 }
